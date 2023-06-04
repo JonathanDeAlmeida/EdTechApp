@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="saveModalStudent" class="w-500" persistent>
+  <v-dialog v-model="saveModalStudent" class="w-modal" persistent>
     <v-card>
       <v-toolbar class="bg-teal-darken-1" title="Cadastro do Aluno"></v-toolbar>
       <v-card-text>
@@ -57,7 +57,7 @@
           <v-col cols="6">
             <v-text-field @click:append-inner="filterStudents" v-model="filter" label="Digite sua busca" density="compact" variant="solo" append-inner-icon="mdi-magnify" single-line></v-text-field>
           </v-col>
-          <v-col cols="6">
+          <v-col class="btn-save-student" cols="6">
             <v-btn class="mt-1 bg-teal-darken-1" @click="saveModalStudent = true">
             Cadastrar Aluno
             </v-btn>

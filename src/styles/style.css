@@ -32,10 +32,6 @@
   margin: 5px;
 }
 
-.w-500 {
-  width: 500px;
-}
-
 .students-table {
   border-radius: 5px;
 }
@@ -47,6 +43,24 @@
 
 .students-table tbody tr td {
   text-align: center;
+}
+
+.w-modal {
+  width: 500px;
+}
+
+@media (max-width: 500px)
+{
+  .w-modal {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px)
+{
+  .btn-save-student {
+    padding-left: 0 !important;
+  }
 }
 
 input[type=number]::-webkit-inner-spin-button { 
