@@ -1,57 +1,26 @@
-# essentials
+# Características
 
-## Project setup
+- Vue 3
+- Vite
+- Vuetify
+- Axios
+- Pinia
+- Vue Router
+- Font Awesome
+- Html
+- Css
+- Javascript
 
-```
-# yarn
-yarn
+# Desenvolvimento
 
-# npm
-npm install
+- git clone https://github.com/JonathanDeAlmeida/EdTechApp.git
+- npm install
+- npm run dev
+- visitar http://localhost:3000
 
-# pnpm
-pnpm install
-```
+# Build
+- npm run build
 
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-```
-
-### Customize configuration
+# Configuração Customizada
 
 See [Configuration Reference](https://vitejs.dev/config/).
