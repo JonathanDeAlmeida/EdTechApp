@@ -2,7 +2,7 @@
 
 https://edtechinstituto.netlify.app/
 
-# Características
+# Development Tools
 
 - Vue 3
 - Vite
@@ -15,7 +15,7 @@ https://edtechinstituto.netlify.app/
 - Css
 - JavaScript
 
-# Desenvolvimento
+# Development
 
 - git clone https://github.com/JonathanDeAlmeida/EdTechApp.git
 - cd EdTechApp
@@ -25,7 +25,3 @@ https://edtechinstituto.netlify.app/
 
 # Build
 - npm run build
-
-# Configuração Customizada
-
-See [Configuration Reference](https://vitejs.dev/config/).
