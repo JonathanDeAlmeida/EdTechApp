@@ -21,7 +21,7 @@ https://edtechinstituto.netlify.app/
 - cd EdTechApp
 - npm install
 - npm run dev
-- visitar http://localhost:3000
+- visit http://localhost:3000
 
 # Build
 - npm run build
