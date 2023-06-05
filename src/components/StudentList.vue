@@ -217,7 +217,7 @@ export default {
     },
     // Função auxiliar de confirmação de ações realizadas
     showErrorAlert () {
-      self.showAlert('error', '')
+      this.showAlert('error', '')
     },
     // Abrindo modal de edição do aluno
     showEditModalStudent (student) {
